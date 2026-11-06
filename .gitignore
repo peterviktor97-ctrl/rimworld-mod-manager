@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python bytecode & caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts & distributions
+build/
+build_new/
+dist/
+dist_new/
+*.spec.bak
+
+# Supporter secret keys & batch generated keys (NEVER COMMIT)
+supporter_keys_batch.txt
+.rmm_supporter_master.key
+*.key
+
+# IDE & Editor files
+.vscode/
+.idea/
+.user_uploaded/
+*.log
